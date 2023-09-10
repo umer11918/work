@@ -1,0 +1,680 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+header {
+    background-color: rgb(224, 220, 220);
+    color: #000000;
+}
+nav ul {
+    display: flex;
+}
+nav ul img{
+    width: 50%;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+/* Style for the burger menu icon */
+.navbar-toggle {
+    display: none; 
+    flex-direction: column;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+/*  swipe slider  image  */
+       
+.swiper-container {
+    margin-top: 80px;
+    width: 100%;
+    margin-left: 0;
+    align-items: flex-start;
+}
+
+.swiper-slide {
+    position: relative;
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: flex-start;
+}
+.swiper-slide h2{
+    font-size: 39px;
+    text-align: start;
+
+}
+.swiper-slide p{
+    margin-top: 20px;
+    text-align: start;
+    font-size: 28px;
+}
+.swiper-slide img {
+    width:65%;
+    flex-wrap: nowrap;
+    margin-left: 30%;
+    border-radius: 20px;
+
+}
+
+
+.slide-content {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: flex-start;
+    color: black;  
+    margin-left: 18%;
+}
+
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(3, 0, 7, 0.664);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Services section style */
+#services {
+    background-color: white; 
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #000; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    color: rgb(241, 179, 7);
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.service p {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+
+}
+#services button{
+    background-color: rgb(241, 179, 7);
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.container h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.service:hover {
+    background-color: #444141;
+    transform: translateY(-5px); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* Footer styles */
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.headingfooter h1{
+    text-align: center;
+}
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.aboutsection{
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+} 
+.footer-column {
+    flex: 1;
+    margin: 0 40px;
+    align-items: flex-start;
+    margin-top:30px;
+}
+
+.footer-column h4 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.footer-column p {
+    font-size: 26px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+}
+.footer-column li a{
+    font-size: 28px;
+
+}
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+.footer-column ul li a:hover {
+    color: rgb(241, 179, 7);
+    font-size: 28px;
+}
+
+.footer-column ul li i {
+    color: rgb(241, 179, 7);
+    font-size: 40px;
+    
+}
+.footer-column a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    max-width: 50px;
+    text-align: center;
+}
+
+.social-icons li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.social-icons li i:hover{
+    font-size: 80px;
+    color: red;
+}
+.headingfooter{
+    margin-top: 50px;
+    background-color: #000;
+    color: white;
+    padding: 30px;
+}
+/* sign in */
+.signup{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.signup-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-signup {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none; 
+        flex-direction: column;
+        color: white;
+        background-color: #000;
+        position: absolute;
+        top: 90px; 
+        left: 0;
+        right: 0;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .navbar-links.active {
+        display: flex; 
+    }
+
+    .navbar-toggle {
+        display: flex; 
+    }
+    
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.swiper-container {
+    margin-top:300px;
+    align-items: center;
+    height: auto;
+}
+.swiper-slide {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+.swiper-slide h2{
+    font-size: 28px;
+    text-align: center;
+ }
+.swiper-slide p{
+    text-align: center;
+    font-size: 18px;
+} 
+.swiper-slide img {
+    margin-top: 40%;
+    width: 90%;
+    margin-left: -10px;
+
+}
+.slide-content {
+    width: 90%;
+    margin-top: -70%;
+    margin-left: 50% ;
+
+} 
+/* Services section */
+.aboutsection{
+    text-align: center;
+
+}
+
+}
+@media screen and (max-width : 450px){
+    .swiper-slide img {
+        margin-top: 300px;
+        width: 85%;
+        height: auto;
+    
+    }
+    
+.slide-content {
+    width: 80%;
+} 
+.swiper-container {
+    margin-top:300px;
+    align-items: center;
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+/* Add additional styles to make it visually appealing */
+
+/* Slider styles (you may need additional CSS for slider functionality) */
+/* .slider {
+    display: flex;
+    overflow: hidden ;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0px;
+}
+
+.slider img {
+    width: 80%; /* This will make the images fill their container */
+    /* max-width: 80%; Adjust the maximum width as needed */
+    /* height: auto; 
+    border-radius: 14px;
+    border: 1px solid black;
+ */ 
+
+/* }
+<section id="home">
+<div class="slider">
+    <!-- Place your slider images here -->
+    <img src="img/image1.jpg" >
+    <img src="img/image2.jpg" >
+    <img src="img/image3.jpg" >
+</div>
+</section> */

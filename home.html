@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+     <!-- Include Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="img/logo.jpg"> </div>
+      
+                <ul class="navbar-links" id="navbarLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#About">Contact</a></li>
+                    <li><a href="/signup.html" data-toggle="modal" data-target="#signinModal">Sign In</a>
+                    </li>
+                </ul>
+            <div class="navbar-toggle" id="navbarToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+ <!-- The Sign In Modal -->
+ <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signinModalLabel">Sign In</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your sign-in form here -->
+                <form>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                </form>
+            </div>
+            <span >
+            <div class="signup">
+                <h5>if you never sign in so sign up </h2>
+                    <a href="/signup.html"><button type="submit" class="btn-signup">Sign Up</button></a>
+                </div>
+        </span>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="/signup.html"><button type="button" class="btn btn-primary">Sign In</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img height="600px" src="img/image4.webp" alt="Slide 1">
+                <div class="slide-content">
+                    <h2>BEST DIGITAL MARKETING AGENCY IN KARACHI</h2>
+                    <p>Optimal Creations is a Digital Marketing Agency based in Karachi, Pakistan. We aim to inspire, assist and facilitate our customers to thrive in an era where it has become vitally important to build strong customer relationships through various marketing platforms.</p>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img height="700px" src="img/image2.jpg" alt="Slide 2">
+                <div class="slide-content">
+                    <h2>BEST DIGITAL MARKETING AGENCY IN KARACHI</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis magni, molestiae nesciunt non unde error aspernatur labore facilis nemo, quidem ullam laborum ipsam repellendus. Sunt cupiditate quisquam consequuntur aspernatur excepturi..</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img  height="650px" src="img/image3.jpg" alt="Slide 3">
+                <div class="slide-content">
+                    <h2>Slide 3 Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia adipisci, cupiditate quisquam nisi reiciendis minima nobis. Recusandae veritatis fugit, tempora omnis repudiandae sit fugiat, numquam hic dicta porro, dolorem sed..</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </head>
+    
+    <!-- Service Section -->
+    <section id="services">
+        <div class="container">
+            <h2 style="color: black; width: 100%; text-align: center;">Services We Provide</h2>
+            <div class="service">
+                <h3>Graphic Designing</h3>
+                <p>till facing difficulty reaching more customers? The reason behind that is you are not reaching the potential customers who can provide you the business. But you don’t need to be worried. We’re here to change your business into a brand. Impress your customers with our Social Media Marketing and Management Services</p>
+            </p> <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>Web Designing</h3>
+                <p>Ecommerce websites are designed on platforms based on content management systems(CMS). They are designed to help administrators with full control over the website. We assure you that our e-commerce websites give you a smooth buying and selling experience for all products and services over the internet.</p>
+                <button>Learn More</button>
+            </div>
+       
+        <div class="service">
+            <h3>Digital Marketing</h3>
+            <p>Do you think you are doing good but No masterpiece was ever created by a nonprofessional graphic designer. Optimal creations have highly qualified designers that can create banners, portfolios, menus, & daily posting for your social media campaigns to increase the audience & reach more customers.</p>
+             <button>Learn More</button>
+        </div>
+    </div>
+    </section>
+
+    <section id="About">
+<footer>
+    <div class="aboutsection">
+        <div class="footer-column">
+            <h4>Overview</h4>
+            <p>We provide quality services in the areas of Digital Marketing, Search Engine Optimization (SEO), Web Design and Development.</p>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <ul>
+                <li> <i class="fas fa-envelope"></i>  <a href="#">Email: info@theocdigitalmarketing.com</a></li>
+                <li> <i class="fas fa-phone"></i>  <a href="#">Phone: +92 334 3470263</a></li>
+                <li><i class="fas fa-map-marker-alt"></i>  <a href="#">Address: Plot 28-C, Lane 7, Sehar Commercial, D.H.A. Phase 7 Karachi, 75500, Pakistan.</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Connect with Us</h4>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <h3 class="headingfooter">Copyright © 2020 The OC Digital Marketing <br>
+        Created By Zeeshan Umer</h1>
+    </section>
+</footer>
+</section>
+</div>
+
+<!-- Include Bootstrap JS (jQuery and Popper.js required) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="swiper.js"></script>
+<script src="smooth-scroll.js"></script> 
+<script src="bergur.js"></script>
+</body>
+</html>
